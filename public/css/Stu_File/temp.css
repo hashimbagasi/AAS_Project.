@@ -1,0 +1,319 @@
+
+.table-without-padding caption, .table-without-padding tbody td, .table-without-padding tbody th, .table-without-padding td{
+    padding: 0 !important;
+}
+
+.tip_En, .tip_Ar, .tipChangeSection_En {
+    background-color: #ffffff !important;
+    width: 300px !important;
+}
+
+.tipChangeSection_En {
+    width: 500px !important;
+    z-index: 50 !important;
+}
+
+.tip_En, .tipChangeSection_En{
+    font-family: inherit !important;
+    background-color: #ffffff !important;
+    border-bottom: 5px #4eb3bd solid!important;
+    box-shadow: 0 0 .625rem rgba(0,0,0,.3);
+    border-radius: .1875rem;
+}
+
+.tip_En table tr td, 
+.tip_En table tr,
+.tipChangeSection_En table tr td,
+.tipChangeSection_En table tr{
+    background-color: transparent !important;
+}
+
+.tip_En .HEADING td, .tipChangeSection_En .HEADING td{
+    color: #c5a154 !important;
+}
+
+.tip_En img, .tipChangeSection_En img{
+    display: none !important;
+}
+
+.tip_En a img, .tipChangeSection_En a img{
+    display: block !important;
+    background-color: Gray;
+}
+
+.MyRow{
+    background-color: #2a8f99  !important;
+    color: #fff !important;
+}
+.MyRow td{
+    color: #fff !important;
+}
+tbody tr:nth-child(even).MyRow{
+     background-color: #2a8f99  !important;
+    color: #fff !important;
+}
+
+.fontText {   
+    
+    font-weight: bold;
+    
+    
+ }
+ 
+.fontTextSmall {   
+    
+    
+    
+ }
+
+.fontTextSmallBlue {   
+    
+    
+    color: #006aa5;
+ }
+ 
+.fontTextSmallRed {   
+    
+    
+    color: Red;
+ }
+
+ .fontTextRegistration {   
+    
+    color: Black; 
+    font-style:normal;
+     
+    TEXT-DECORATION: none; 
+    font-weight: bold;
+ }
+ 
+ 
+.fontTextRegistrationLarge {   
+     
+    color: Black; 
+    font-style:normal;
+     
+    TEXT-DECORATION: none; 
+    font-weight: bold;
+ }
+
+ .fontTextRegistrationRed {   
+    
+    color: Red; 
+    font-style:normal;
+     
+    TEXT-DECORATION: none; 
+    font-weight: bold;
+ }
+
+ .fontTextUserAr {   
+    
+    color: #4976A0; 
+    font-style:normal;
+     
+    TEXT-DECORATION: none; 
+    font-weight: bold;
+ } 
+ 
+ .fontTextUserEn {   
+    
+    color: #4976A0; 
+    font-style:normal;
+     
+    TEXT-DECORATION: none; 
+    font-weight: bold;
+ } 
+ 
+  .fontTextBlue {   
+     
+    color: #2a8f99; 
+    font-style:normal;
+     
+    TEXT-DECORATION: none; 
+    font-weight: bold;
+ }
+ 
+ .fontTextLarge {   
+     
+    color: #333333; 
+    font-style:normal;
+    font-weight: bold;
+ }
+ 
+ .fontTextStudent {   
+    
+    font-weight: bold;
+    
+    color: black;
+    color: #3686bb; 
+ }
+ 
+ 
+  .fontTextSemester {   
+    
+    font-weight: bold;
+    
+    color: black;
+    color: #3E925E; 
+ }
+ 
+
+ .fontTextWhite {   
+    
+    font-weight: bold;
+    
+    color: White;
+ }
+ 
+ .fontTextRed {   
+    
+    font-weight: bold;
+    
+    color: Red;
+ }
+ 
+ .fontTextGreen {   
+    
+    font-weight: bold;
+    
+    color: Green; 
+ }
+ 
+ .fontTextGreenSmall {   
+    
+    
+    color: Green; 
+ }
+ 
+  .fontTextBlack {   
+    
+    font-weight: bold;
+    
+    color: black;
+ }
+ 
+
+ 
+ .fontTextGroundGreen {   
+    
+    font-weight: bold;
+    
+    color: White; 
+    background-color: rgb(0,181,0) ;
+ }
+ 
+ .fontTextGroundRed {   
+    
+    font-weight: bold;
+    
+    color: White;
+    background-color: Red;
+ }
+ 
+  .fontTextGroundWhite {   
+    
+    font-weight: bold;
+    
+    color: Black;
+    background-color: White;
+ }
+ 
+ 
+ .fontTextWhiteSmall {   
+    
+    font-weight: bold;
+    
+    color: White;
+ }
+
+ .fontTextWelcomeMsgAr {   
+    
+    font-weight: bold;
+    
+    color: black;
+    text-align:justify;  
+ }
+ 
+ .fontTextWelcomeMsgEn {   
+    
+    font-weight: bold;
+    
+    color: black;
+    text-align:justify; 
+    
+ }
+ 
+  .Title	,.title{ color: #c5a154; font-weight: bold; text-decoration: none }
+/*texts*/
+.fontTextBlue2{
+    font-family: "Droid Arabic Kufi Bold","Ubuntu bold";
+    font-size:1.0rem;
+    font-weight: bold;
+    font-style: normal;
+    color: #2a8f99;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.4;
+}
+
+/*messages*/
+.ERR_MSG_SMALL {
+    color: red;
+}
+
+.ERR_MSG {
+    color: red;
+    font-weight: bold;
+}
+
+.SUCC_MSG {
+    color: green;
+    font-weight: bold;
+}
+
+
+
+
+/*tables*/
+.HEADING{
+    
+    background-color: #ddd !important;
+    color: #666!important;
+}
+
+/**/
+.cat-items{
+    list-style: none;
+}
+
+.ui-dialog{
+    position: absolute;
+}
+
+.ROW3:hover,.ROW1:hover,.ROW2:hover{
+	/*background: #e5e5e5;*/
+	color: #999;
+        font-weight: bold !important;
+        border-right: 1px solid #c5a154 !important;
+        border-left: 1px solid #c5a154 !important;  
+}
+/*table caption, table tbody td, table tbody th{
+    border-radius: 0 !important ;
+}
+table{
+    border-collapse: collapse !important;
+}
+td{
+    border-radius: 0 !important ;
+}*/
+.ROW select,.ROW1 select,.ROW2 select,.ROW3 select,.MyRow select {
+    margin: 0 !important ;
+    height: auto;
+}
+.ROW input,.ROW1 input,.ROW2 input,.ROW3 input,.MyRow input {
+    margin: 0 !important ;
+    padding: 0 !important ;
+    height: auto;
+}
+
+
